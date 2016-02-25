@@ -1,0 +1,5 @@
+cd ~/utils
+osacompile -o "New Terminal Window.app" -e 'tell application "Terminal"' -e 'activate' -e 'do script' -e 'end'
+open -R New\ Terminal\ Window.app/
+<open "Get Info" to change icon>
+<drag and drop icon to dock>
